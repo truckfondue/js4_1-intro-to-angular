@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Untitled</title>
+        <!-- <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+    </head>
+    <body ng-controller="mainController">
+        <h1>Hello World!</h1>
+        <button ng-click="toggle()">Toggle</button>
+
+        <h1 ng-hide='myVar'>Hello World</h1>
+
+        <button ng-click='toggle2()'>Display a list</button>
+
+        <ul ng-hide='list'>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+
+        <div class='{{colorValue}}' ng-mouseover='pink()' ng-click='excite()'>
+
+            <p><a ng-click='userConfirm($event)' ng-show='appleLink' href="http://www.apple.com/">apple</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam alias quo quibusdam, expedita, tempore harum non recusandae ut repellendus quasi nihil ipsa? Atque, est aspernatur accusamus, temporibus deleniti modi{{ bang }}</p>
+        </div>
+
+        <div>
+            <button class='hero' ng-click='heroButton()'>press</button>
+        </div>
+
+        <div ng-hide='lightbox' class="lightbox">
+            <button class='hero' ng-click='heroButton()'>press</button>
+        </div>
+
+
+       
+        <script src="main.js"></script>
+    </body>
+</html>

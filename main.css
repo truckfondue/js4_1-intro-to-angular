@@ -1,0 +1,26 @@
+* {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+.pink {
+	color: hotpink;
+}
+
+.hero {
+	background-color: red;
+	color: white;
+}
+
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(18, 21, 24, 0.9);
+}
